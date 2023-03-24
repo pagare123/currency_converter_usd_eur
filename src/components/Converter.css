@@ -1,0 +1,29 @@
+.form-check-input {
+    clear: left;
+}
+  
+.form-switch.form-switch-md {
+    margin-bottom: 1rem;
+}
+
+.form-switch.form-switch-md .form-check-input {
+    height: 1.5rem;
+    width: calc(3rem + 0.75rem);
+    border-radius: 3rem;
+    padding: 0;
+   
+}
+@media screen and (min-width: 900px ) { 
+    .form-switch.form-switch-md .form-check-input {
+        height: 1.5rem;
+        width: calc(3rem + 0.75rem);
+        border-radius: 3rem;
+        margin-left: -2vw;
+        padding: 0;
+       
+    }
+}
+.form-check-input[type=checkbox].form-switch {
+    margin: 0;
+    padding: 0;
+  }
